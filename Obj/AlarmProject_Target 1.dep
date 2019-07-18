@@ -1,0 +1,56 @@
+Dependencies for Project 'AlarmProject', Target 'Target 1': (DO NOT MODIFY !)
+F (.\System\sys\core_cm3.h)(0x4D523B58)()
+F (.\System\sys\core_cmFunc.h)(0x53FEF2AA)()
+F (.\System\sys\core_cmInstr.h)(0x53FEF2AA)()
+F (.\System\sys\stm32f10x.h)(0x4F1E2E3C)()
+F (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)()
+F (.\System\sys\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\User\main.c)(0x5CFCCD85)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\Function\clock.h)(0x5CFD35F2)
+I (.\Function\setNVIC.h)(0x5CFD34A9)
+I (.\System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\Function\beep.h)(0x5CFC712A)
+I (.\Function\uartContact.h)(0x5CFC7129)
+F (.\User\startup_stm32f10x_hd.s)(0x5CFC7261)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\obj\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
+F (.\Function\clock.c)(0x5CFDE27B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\clock.o --omf_browse .\obj\clock.crf --depend .\obj\clock.d)
+I (Function\clock.h)(0x5CFD35F2)
+I (Function\setNVIC.h)(0x5CFD34A9)
+I (.\System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (Function\beep.h)(0x5CFC712A)
+I (Function\uartContact.h)(0x5CFC7129)
+F (.\Function\clock.h)(0x5CFD35F2)()
+F (.\Function\beep.c)(0x5CFC7129)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\beep.o --omf_browse .\obj\beep.crf --depend .\obj\beep.d)
+I (Function\beep.h)(0x5CFC712A)
+I (Function\clock.h)(0x5CFD35F2)
+I (Function\setNVIC.h)(0x5CFD34A9)
+I (.\System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\Function\beep.h)(0x5CFC712A)()
+F (.\Function\uartContact.c)(0x5CFD34A9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\uartcontact.o --omf_browse .\obj\uartcontact.crf --depend .\obj\uartcontact.d)
+I (Function\uartContact.h)(0x5CFC7129)
+I (Function\setNVIC.h)(0x5CFD34A9)
+I (.\System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (Function\clock.h)(0x5CFD35F2)
+F (.\Function\uartContact.h)(0x5CFC7129)()
+F (.\Function\setNVIC.c)(0x5CFDB739)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System\sys -I.\Function -I.\System\delay -I.\System\usart -I.\Function-I D:\Alarm\RTE-I D:\MajorSoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\MajorSoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\setnvic.o --omf_browse .\obj\setnvic.crf --depend .\obj\setnvic.d)
+I (Function\setNVIC.h)(0x5CFD34A9)
+I (.\System\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\System\sys\core_cm3.h)(0x4D523B58)
+I (D:\MajorSoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\System\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\Function\setNVIC.h)(0x5CFD34A9)()

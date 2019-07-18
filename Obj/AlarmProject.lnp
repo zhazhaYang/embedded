@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\obj\system_stm32f10x.o"
+".\obj\main.o"
+".\obj\startup_stm32f10x_hd.o"
+".\obj\clock.o"
+".\obj\beep.o"
+".\obj\uartcontact.o"
+".\obj\setnvic.o"
+--library_type=microlib --strict --scatter ".\Obj\AlarmProject.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Obj\AlarmProject.map" -o .\Obj\AlarmProject.axf

@@ -1,0 +1,9 @@
+.\obj\clock.o: Function\clock.c
+.\obj\clock.o: Function\clock.h
+.\obj\clock.o: Function\setNVIC.h
+.\obj\clock.o: .\System\sys\stm32f10x.h
+.\obj\clock.o: .\System\sys\core_cm3.h
+.\obj\clock.o: D:\MajorSoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\clock.o: .\System\sys\system_stm32f10x.h
+.\obj\clock.o: Function\beep.h
+.\obj\clock.o: Function\uartContact.h
